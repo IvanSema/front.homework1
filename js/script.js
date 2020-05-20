@@ -8,7 +8,6 @@ class Card{
     }
 
     makeCard(){
-
         let text = document.getElementById('container').innerHTML;
         let temp = `<div class="flip-container" ontouchstart="this.classList.toggle('hover');"><div class="flipper"><div class="front"></div><div class="back"><span class="card_name">${this.cardNubmer}</span><span class="card_type">${this.cardType}</span><span class="card_name-mod">${this.cardNubmer}</span></div></div></div></div>`;
 
